@@ -14,13 +14,14 @@
 
       <div class="product-image">
 
-        <img v-bind:src="image" v-bind:alt="altText">;
-      
+        <img v-bind:src="image" v-bind:alt="altText">
+        
       </div>
       
       <div class="product-info">
       
         <h1>{{ product }}</h1>
+        <a :href="link">More products like this</a>
         <p>{{ description }}</p>
 
       </div>
